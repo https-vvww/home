@@ -701,7 +701,6 @@ firebase.initializeApp(firebaseConfig);
             if (e.ctrlKey && e.keyCode === 13) {
                 push_message_and_show();
             }
-            document.querySelector('a[title^="Host"]').style.display = 'none';
         });
         function push_message_and_show(){
             if( $('textarea.type_msg').val().charAt(0) != '.'){
